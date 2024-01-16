@@ -1,0 +1,33 @@
+.carta {
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 16px #888;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.carta-rest {
+    flex-direction: column;
+    padding: 5px;
+}
+
+.carta img {
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    transition: all 0.5s ease;
+}
+
+.carta img:hover {
+    transform: scale(1.05);
+}
+
+.carta-title {
+    font-weight: bold;
+}
+
+.carta-price {
+    font-weight: bold;
+}
