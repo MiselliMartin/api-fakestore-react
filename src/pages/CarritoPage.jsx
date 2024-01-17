@@ -46,7 +46,7 @@ export const CarritoPage = () => {
                 })
               }
               <tr>
-                <th><b>Precio:</b></th>
+                <th>Precio:</th>
                 <td></td>
                 <td></td>
                 <td>${calcularTotal()}</td>

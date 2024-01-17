@@ -3,6 +3,8 @@ import { Card } from '../components/Card'
 import '../styles/productospage.css'
 import { ProductosContext } from '../context/ProductosContext'
 import { CarritoContext } from '../context/CarritoContext'
+import { FloatButton } from 'antd'
+
 
 export const ProductosPage = () => {
 
@@ -55,6 +57,7 @@ export const ProductosPage = () => {
                                     handleDisminuir={() => handleDisminuir(producto.id)}></Card>
                             )
                         })}
+                <FloatButton.BackTop />
             </div>
         </>
     )
