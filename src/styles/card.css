@@ -31,3 +31,9 @@
 .carta-price {
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .carta {
+        flex-direction: column;
+    }
+}
